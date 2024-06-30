@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">LanguageTranslatorWithML</string>
+    <string name="translate">ML Translate</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="hello">Hello</string>
+    <string name="holla">Holla</string>
+    <string name="Translate">Translate</string>
 </resources>
