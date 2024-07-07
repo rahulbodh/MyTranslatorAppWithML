@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:text="@string/translate"
-        android:textColor="@color/white"
+        android:textColor="#182153"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,6 +40,7 @@
         android:src="@drawable/baseline_compare_arrows"
         app:layout_constraintEnd_toStartOf="@+id/translateTo"
         app:layout_constraintHorizontal_bias="0.494"
+        android:tint="@color/BorderOutline"
         app:layout_constraintStart_toEndOf="@+id/translateFrom"
         app:layout_constraintTop_toTopOf="@+id/translateFrom" />
 
@@ -58,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="6dp"
         android:text="@string/from"
-        android:textColor="@color/white"
+        android:textColor="#3DE144"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/translateFrom"
         app:layout_constraintStart_toStartOf="@+id/translateFrom" />
@@ -69,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:text="@string/to"
-        android:textColor="@color/white"
+        android:textColor="#F44336"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/translateTo"
         app:layout_constraintStart_toStartOf="@+id/translateTo" />
@@ -100,6 +101,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
+                    android:textSize="18sp"
+                    android:textIsSelectable="true"
                     android:text="Hello my name is Rahul bodh. My father name is Mr. Rakesh Kumar" />
 
             </LinearLayout>
@@ -114,7 +117,6 @@
         android:layout_marginEnd="24dp"
         android:background="@drawable/edit_text_bg"
         android:orientation="vertical"
-        android:text="My name is Rahul bodh and my father name is mr. Rakesh kumar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/translateTo">
 
@@ -127,11 +129,13 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <EditText
+                <TextView
                     android:id="@+id/translatedText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
+                    android:textSize="18sp"
+                    android:textIsSelectable="true"
                     android:text="Hello my name is Rahul bodh. My father name is Mr. Rakesh Kumar" />
 
             </LinearLayout>
